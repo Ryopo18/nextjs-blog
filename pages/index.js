@@ -14,14 +14,15 @@ export default function Home ({ allPostsData }) {
       </Head>
       <section className={utilStyles.headingMd}>
         <p>ようこそ！</p>
-        <p>このブログは、Nextチュートリアルで作成しました。デザインには、tailwindcssを使用しています。</p>
+        <p>このブログは、Nextチュートリアルで作成しました。デザインには、tailwindcssを使用しています。。
+        </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title }) => (
-            <div class="bg-white p-3 m-2.5 shadow-lg rounded-lg flex justify-between items-center">
-              <div class="flex">
+            <div className="bg-white p-3 m-2.5 shadow-lg rounded-lg flex justify-between items-center">
+              <div className="flex">
                 <li className={utilStyles.listItem} key={id}>
                 <Link href={`/posts/${id}`}>
                   <a className="text-xl font-medium text-blue-400">{title}</a>
