@@ -13,10 +13,8 @@ export default function Home ({ allPostsData }) {
         <title>Ryopo Blog</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>Ryopo!</p>
-        <p>
-          Next.jsに入門します
-        </p>
+        <p>ようこそ！</p>
+        <p>このブログは、Nextチュートリアルで作成しました。</p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
