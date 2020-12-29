@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@tailwindcss/postcss7-compat": "^2.0.2",
-    "autoprefixer": "^9",
+    "autoprefixer": "^10.1.0",
     "date-fns": "^2.16.1",
     "fs": "^0.0.1-security",
     "gray-matter": "^4.0.2",
@@ -21,6 +21,6 @@
     "react-dom": "16.13.1",
     "remark": "^13.0.0",
     "remark-html": "^13.0.1",
-    "tailwindcss": "npm:@tailwindcss/postcss7-compat"
+    "tailwindcss": "^2.0.2"
   }
 }
