@@ -22,5 +22,9 @@
     "remark": "^13.0.0",
     "remark-html": "^13.0.1",
     "tailwindcss": "^2.0.2"
+  },
+  "devDependencies": {
+    "tailwindcss": "^2.0.2",
+    "webpack-dev-server": "^3.11.1"
   }
 }
