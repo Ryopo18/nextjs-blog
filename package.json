@@ -15,7 +15,7 @@
     "fs": "^0.0.1-security",
     "gray-matter": "^4.0.2",
     "next": "^10.0.0",
-    "postcss": "^7",
+    "postcss": "^8.2.2",
     "postcss-import": "^14.0.0",
     "postcss-preset-env": "^6.7.0",
     "react": "16.13.1",
@@ -26,7 +26,6 @@
   },
   "devDependencies": {
     "@tailwindcss/postcss7-compat": "^2.0.2",
-    "classnames": "^2.2.6",
     "postcss": "^7",
     "postcss-import": "^14.0.0",
     "tailwindcss": "^2.0.2"
