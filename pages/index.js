@@ -14,7 +14,8 @@ export default function Home ({ allPostsData }) {
       </Head>
       <section className={utilStyles.headingMd}>
         <p>ようこそ！</p>
-        <p>このブログは、Nextチュートリアルで作成しました。デザインには、tailwindcssを使用しています。</p>
+        <p>このブログは、Nextチュートリアルで作成しました。デザインには、tailwindcssを使用しています。。
+        </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
