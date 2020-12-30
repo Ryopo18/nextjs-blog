@@ -26,6 +26,7 @@
   },
   "devDependencies": {
     "@tailwindcss/postcss7-compat": "^2.0.2",
+    "classnames": "^2.2.6",
     "postcss": "^7",
     "postcss-import": "^14.0.0",
     "tailwindcss": "^2.0.2"
