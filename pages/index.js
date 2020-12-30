@@ -21,11 +21,11 @@ export default function Home ({ allPostsData }) {
         <h2 className={utilStyles.headingLg}>Blog</h2>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title }) => (
-            <div className="bg-white p-3 m-2.5 shadow-lg rounded-lg flex justify-between items-center">
-              <div className="flex">
+            <div class="bg-white p-3 m-2.5 shadow-lg rounded-lg flex justify-between items-center">
+              <div class="flex">
                 <li className={utilStyles.listItem} key={id}>
                 <Link href={`/posts/${id}`}>
-                  <a className="text-xl font-medium text-blue-400">{title}</a>
+                  <a class="text-xl font-medium text-blue-400">{title}</a>
                 </Link>
                 <br />
                 <small className={utilStyles.lightText}>
